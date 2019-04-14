@@ -12,6 +12,7 @@
   <p>{{ $article->body }}</p>
   <p>
     <a href="/edit/{{ $article->id }}">edit</a>
+    <a href="/confirm/{{ $article->id }}">delete</a>
   </p>
 </div>
 @endforeach

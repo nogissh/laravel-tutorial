@@ -16,3 +16,5 @@ Route::get('create/', 'ArticleController@create');
 Route::post('create/', 'ArticleController@store');
 Route::get('edit/{id}', 'ArticleController@edit');
 Route::post('update/', 'ArticleController@update');
+Route::get('confirm/{id}', 'ArticleController@show_for_delete');
+Route::post('delete/', 'ArticleController@delete');
