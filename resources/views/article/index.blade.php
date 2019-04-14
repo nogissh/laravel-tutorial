@@ -1,3 +1,10 @@
+<!-- Link -->
+<div>
+  <ul>
+    <li><a href="/create">create</a></li>
+  </ul>
+</div>
+
 <div>
 @foreach ($articles as $article)
 <div>
