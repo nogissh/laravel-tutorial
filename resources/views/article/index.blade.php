@@ -10,6 +10,9 @@
 <div>
   <h1>{{ $article->title }}</h1>
   <p>{{ $article->body }}</p>
+  <p>
+    <a href="/edit/{{ $article->id }}">edit</a>
+  </p>
 </div>
 @endforeach
 </div>
