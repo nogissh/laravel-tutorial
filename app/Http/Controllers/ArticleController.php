@@ -44,7 +44,7 @@ class ArticleController extends Controller
         return view('article.update');
     }
 
-    public function show_for_delete (Request $request, $id)
+    public function confirm (Request $request, $id)
     {
         $article = Article::find($id);
         return view('article.show_for_delete', ['article' => $article]);
